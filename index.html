@@ -1,52 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./assets/fonts/fonts.css">
-    <link rel="shortcut icon" href="./assets/icons8-меню-100.png" type="image/x-icon">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Singolo</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="headerLogo">
-            SINGOLO 
-            <span class="headerLogoIcon">*</span>
+      <div class="header--wrapper">
+        <h1 class="header--logo">
+          SINGOLO <span class="header--logo__star">*</span>
         </h1>
-        <nav class="headerNavigation">
-            <ul class="navigationList">
-                <li class="navigationItem">HOME</li>
-                <li class="navigationItem">SERVICES</li>
-                <li class="navigationItem">PORTFOLIO</li>
-                <li class="navigationItem">ABOUT</li>
-                <li class="navigationItem">CONTACT</li>
-            </ul>
-
-
+        <nav class="header--navigation">
+          <ul class="navigation--list">
+            <li class="navigation--item">HOME</li>
+            <li class="navigation--item">SERVICES</li>
+            <li class="navigation--item">PORTFOLIO</li>
+            <li class="navigation--item">ABOUT</li>
+            <li class="navigation--item">CONTACT</li>
+          </ul>
         </nav>
-        
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
+      </div>
     </header>
-
-
-
-
-
-    <script src="./script.js"></script>
-</body>
+    <main>
+      <section class="slider">
+        <div class="slider--red">
+          <div class="slider--content">
+            <img
+              src="./assets/arrow-left.png"
+              alt=""
+              class="content--arrow arrow"
+            />
+            <div class="red-content--wrapper">
+              <img
+                src="./assets/phone-vertical.png"
+                alt=""
+                class="red-content--vertical"
+              />
+              <img
+                src="./assets/phone-horizontal.png"
+                alt=""
+                class="red-content--horizontal"
+              />
+            </div>
+            <img
+              src="./assets/arrow-right.png"
+              alt=""
+              class="content--arrow arrow"
+            />
+          </div>
+        </div>
+        <div class="slider--blue">
+          <div class="slider--content">
+            <img
+              src="./assets/arrow-left.png"
+              alt=""
+              class="content--arrow arrow"
+            />
+            <div class="blue-content--wrapper">
+              <img
+                src="./assets/phone-vertical (6).png"
+                alt=""
+                class="blue-content--vertical blue-left"
+              />
+              <img
+                src="./assets/phone-vertical blue.png"
+                alt=""
+                class="blue-content--horizontal"
+              />
+              <img
+                src="./assets/phone-vertical (6).png"
+                alt=""
+                class="blue-content--vertical blue-right"
+              />
+            </div>
+            <img
+              src="./assets/arrow-right.png"
+              alt=""
+              class="content--arrow arrow"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="services--wrapper">
+          <h2 class="services--title">Our Services</h2>
+          <div class="services--subtitle">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+            lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+            tortor mauris condimentum nibh.
+          </div>
+          <div class="servies--list">
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-1.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">Custom Design</div>
+                <div class="list-item--subtitle">
+                  Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                  quam laoreet, viverra lacus ut, ultrices velit.
+                </div>
+              </div>
+            </div>
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-2.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">Inovative Ideas</div>
+                <div class="list-item--subtitle">
+                  Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                  purus, nec rutrum tellus dolor id lorem.
+                </div>
+              </div>
+            </div>
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-3.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">Love Is The Answer</div>
+                <div class="list-item--subtitle">
+                  Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                  turpis, et consequat felis. Quisque condimentum.
+                </div>
+              </div>
+            </div>
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-4.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">Responsive Layout</div>
+                <div class="list-item--subtitle">
+                  Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
+                  blandit nunc ligula. Praesent elit leo.
+                </div>
+              </div>
+            </div>
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-5.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">24 / 7 Support</div>
+                <div class="list-item--subtitle">
+                  Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                  Nulla a sem erat. Pellentesque egestas venenatis lorem .
+                </div>
+              </div>
+            </div>
+            <div class="list-item--wrapper">
+              <img
+                src="./assets/services-item-6.png"
+                alt=""
+                class="lits-item--icon"
+              />
+              <div class="list-item--text">
+                <div class="list-item--title">Feel Like A Star</div>
+                <div class="list-item--subtitle">
+                  Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
+                  nibh. Fusce vitae aliquam tellus.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="portfolioWrapper">
+          <h2 class="portfolioTitle">Portfolio</h2>
+          <div class="portfolioDescription">
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+            eget lacinia odio sem nec elit.
+          </div>
+          <nav class="navPortfolio">
+            <ul class="navListPortfolio">
+              <li><img src="./assets/filter-item.png" alt=""></li>
+              <li><img src="./assets/filter-item (1).png" alt=""></li>
+              <li><img src="./assets/filter-item (3).png" alt=""></li>
+              <li><img src="./assets/filter-item (3).png" alt=""></li>
+            </ul>
+          </nav>
+          <div class="images">
+            <img src="./assets/portfolio/portfolio-1.png" alt="">
+            <img src="./assets/portfolio/portfolio-2.png" alt="">
+            <img src="./assets/portfolio/portfolio-3.png" alt="">
+            <img src="./assets/portfolio/portfolio-4.png" alt="">
+            <img src="./assets/portfolio/portfolio-5.png" alt="">
+            <img src="./assets/portfolio/portfolio-6.png" alt="">
+            <img src="./assets/portfolio/portfolio-7.png" alt="">
+            <img src="./assets/portfolio/portfolio-8.png" alt="">
+            <img src="./assets/portfolio/portfolio-9.png" alt="">
+            <img src="./assets/portfolio/portfolio-10.png" alt="">
+            <img src="./assets/portfolio/portfolio-11.png" alt="">
+            <img src="./assets/portfolio/portfolio-12.png" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./script.js"></script>
 </html>
