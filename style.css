@@ -285,9 +285,9 @@ section {
   padding: 14px 0;
 }
 
-.navPortfolio {
+/* .navPortfolio {
   padding-bottom: 14px;
-}
+} */
 
 .navListPortfolio {
   width: 290px;
@@ -304,7 +304,11 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  }
+.indent {
+  margin-top: 15px;
 }
+
 
 footer {
   background: #2d303a;
@@ -313,13 +317,14 @@ footer {
   justify-content: center;
 }
 
-.wrapperFooter{
-max-width: 1020px;
+.wrapperFooter {
+  max-width: 1020px;
   width: 100%;
   display: flex;
   padding: 59px 40px 46px;
   box-sizing: border-box;
   justify-content: space-between;
-
 }
-  
+.footerInterack {
+cursor: pointer;
+}
