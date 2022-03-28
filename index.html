@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Singolo</title>
   </head>
+
   <body>
     <header>
       <div class="header--wrapper">
@@ -18,8 +19,10 @@
         <nav class="header--navigation">
           <ul class="navigation--list">
             <li class="navigation--item">HOME</li>
-            <li class="navigation--item">SERVICES</li>
-            <li class="navigation--item">PORTFOLIO</li>
+            <li class="navigation--item">
+              <a href="#services" class="styleHref"> SERVICES</a>
+            </li>
+            <li class="navigation--item"><a href="#portf" class="styleHref">PORTFOLIO</a></li>
             <li class="navigation--item">ABOUT</li>
             <li class="navigation--item">CONTACT</li>
           </ul>
@@ -28,28 +31,28 @@
     </header>
     <main>
       <section class="slider">
-        <div class="slider--red">
+        <div class="slider--red sliderHidden">
           <div class="slider--content">
             <img
               src="./assets/arrow-left.png"
-              alt=""
+              alt="#"
               class="content--arrow arrow"
             />
             <div class="red-content--wrapper">
               <img
                 src="./assets/phone-vertical.png"
-                alt=""
+                alt="#"
                 class="red-content--vertical"
               />
               <img
                 src="./assets/phone-horizontal.png"
-                alt=""
+                alt="#"
                 class="red-content--horizontal"
               />
             </div>
             <img
               src="./assets/arrow-right.png"
-              alt=""
+              alt="#"
               class="content--arrow arrow"
             />
           </div>
@@ -58,35 +61,35 @@
           <div class="slider--content">
             <img
               src="./assets/arrow-left.png"
-              alt=""
+              alt="#"
               class="content--arrow arrow"
             />
             <div class="blue-content--wrapper">
               <img
                 src="./assets/phone-vertical (6).png"
-                alt=""
+                alt="#"
                 class="blue-content--vertical blue-left"
               />
               <img
                 src="./assets/phone-vertical blue.png"
-                alt=""
+                alt="#"
                 class="blue-content--horizontal"
               />
               <img
                 src="./assets/phone-vertical (6).png"
-                alt=""
+                alt="#"
                 class="blue-content--vertical blue-right"
               />
             </div>
             <img
               src="./assets/arrow-right.png"
-              alt=""
+              alt="#"
               class="content--arrow arrow"
             />
           </div>
         </div>
       </section>
-      <section class="services">
+      <section class="services" id="services">
         <div class="services--wrapper">
           <h2 class="services--title">Our Services</h2>
           <div class="services--subtitle">
@@ -99,7 +102,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-1.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -113,7 +116,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-2.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -127,7 +130,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-3.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -141,7 +144,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-4.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -155,7 +158,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-5.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -169,7 +172,7 @@
             <div class="list-item--wrapper">
               <img
                 src="./assets/services-item-6.png"
-                alt=""
+                alt="#"
                 class="lits-item--icon"
               />
               <div class="list-item--text">
@@ -183,49 +186,117 @@
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portf">
         <div class="portfolioWrapper">
           <h2 class="portfolioTitle">Portfolio</h2>
           <div class="portfolioDescription">
             Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
             eget lacinia odio sem nec elit.
           </div>
-          <nav class="navPortfolio">
-            <ul class="navListPortfolio">
-              <li><img src="./assets/filter-item.png" alt="" /></li>
-              <li><img src="./assets/filter-item (1).png" alt="" /></li>
-              <li><img src="./assets/filter-item (3).png" alt="" /></li>
-              <li><img src="./assets/filter-item (3).png" alt="" /></li>
-            </ul>
-          </nav>
+          <div class="navPortfolio">
+            <div class="navListPortfolio">
+              <button type="button" class="buttonStyle width1">All</button>
+              <button type="button" class="buttonStyle width2">
+                Web Design
+              </button>
+              <button type="button" class="buttonStyle width3">
+                Graphic Design
+              </button>
+              <button type="button" class="buttonStyle width4">Aetwork</button>
+            </div>
+          </div>
           <div class="images">
-            <img src="./assets/portfolio/portfolio-1.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-2.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-3.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-4.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-5.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-6.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-7.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-8.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-9.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-10.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-11.png" alt="#" class="indent"/>
-            <img src="./assets/portfolio/portfolio-12.png" alt="#" class="indent"/>
+            <img
+              src="./assets/portfolio/portfolio-1.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-2.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-3.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-4.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-5.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-6.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-7.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-8.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-9.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-10.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-11.png"
+              alt="#"
+              class="indent"
+            />
+            <img
+              src="./assets/portfolio/portfolio-12.png"
+              alt="#"
+              class="indent"
+            />
           </div>
         </div>
       </section>
     </main>
     <footer>
       <div class="wrapperFooter">
-        <div><img src="./assets/description.png" alt="icon" /></div>
+        <div class="copyrightStyle">&copy;Copyright 2013</div>
         <div>
-          <img src="./assets/icons/ico-facebook.png" alt="facebook" class="footerInterack"/>
-          <img src="./assets/icons/ico-google-plus.png" alt="google plus" class="footerInterack"/>
-          <img src="./assets/icons/ico-twitter.png" alt="twitter" class="footerInterack"/>
-          <img src="./assets/icons/ico-linkedin.png" alt="linkedin" class="footerInterack"/>
+          <img
+            src="./assets/icons/ico-facebook.png"
+            alt="facebook"
+            class="footerInterack"
+          />
+          <img
+            src="./assets/icons/ico-google-plus.png"
+            alt="google plus"
+            class="footerInterack"
+          />
+          <img
+            src="./assets/icons/ico-twitter.png"
+            alt="twitter"
+            class="footerInterack"
+          />
+          <img
+            src="./assets/icons/ico-linkedin.png"
+            alt="linkedin"
+            class="footerInterack"
+          />
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
-  <script src="./script.js"></script>
 </html>
