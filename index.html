@@ -12,17 +12,49 @@
 
   <body>
     <header>
+      <img
+        src="./assets/burger/Burger-menu-icon-off.png"
+        alt="#"
+        class="burgerMenu burgerIcon"
+      />
+      <div class="mobilePageWrapper activBurgerMenu">
+        <div class="mobilePage">
+          <img
+            src="./assets/burger/Burger-menu-icon-on.svg"
+            alt="#"
+            class="burgerOn burgerIcon"
+          />
+          <h1 class="header--logo--mobile">
+            SINGOLO <span class="header--logo__star">*</span>
+          </h1>
+        </div>
+        <nav class="headerNavigationMobile">
+          <ul class="navigation--list">
+            <li class="navigation--item navigationMobile">HOME</li>
+            <li class="navigation--item navigationMobile">
+              <a href="#services" class="styleHref"> SERVICES</a>
+            </li>
+            <li class="navigation--item navigationMobile">
+              <a href="#portf" class="styleHref">PORTFOLIO</a>
+            </li>
+            <li class="navigation--item navigationMobile">ABOUT</li>
+            <li class="navigation--item navigationMobile">CONTACT</li>
+          </ul>
+        </nav>
+      </div>
       <div class="header--wrapper">
         <h1 class="header--logo">
           SINGOLO <span class="header--logo__star">*</span>
         </h1>
-        <nav class="header--navigation">
+        <nav class="burger">
           <ul class="navigation--list">
             <li class="navigation--item">HOME</li>
             <li class="navigation--item">
               <a href="#services" class="styleHref"> SERVICES</a>
             </li>
-            <li class="navigation--item"><a href="#portf" class="styleHref">PORTFOLIO</a></li>
+            <li class="navigation--item">
+              <a href="#portf" class="styleHref">PORTFOLIO</a>
+            </li>
             <li class="navigation--item">ABOUT</li>
             <li class="navigation--item">CONTACT</li>
           </ul>
@@ -31,7 +63,7 @@
     </header>
     <main>
       <section class="slider">
-        <div class="slider--red sliderHidden">
+        <div class="slider--red">
           <div class="slider--content">
             <img
               src="./assets/arrow-left.png"
@@ -57,7 +89,7 @@
             />
           </div>
         </div>
-        <div class="slider--blue">
+        <div class="slider--blue sliderHidden">
           <div class="slider--content">
             <img
               src="./assets/arrow-left.png"
@@ -66,17 +98,17 @@
             />
             <div class="blue-content--wrapper">
               <img
-                src="./assets/phone-vertical (6).png"
+                src="./assets/phone-vertical(6).png"
                 alt="#"
                 class="blue-content--vertical blue-left"
               />
               <img
-                src="./assets/phone-vertical blue.png"
+                src="./assets/phone-vertical-blue.png"
                 alt="#"
                 class="blue-content--horizontal"
               />
               <img
-                src="./assets/phone-vertical (6).png"
+                src="./assets/phone-vertical(6).png"
                 alt="#"
                 class="blue-content--vertical blue-right"
               />
@@ -273,7 +305,7 @@
     <footer>
       <div class="wrapperFooter">
         <div class="copyrightStyle">&copy;Copyright 2013</div>
-        <div>
+        <div class="iconBox">
           <img
             src="./assets/icons/ico-facebook.png"
             alt="facebook"
